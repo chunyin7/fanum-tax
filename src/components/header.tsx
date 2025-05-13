@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Header() {
 	return (
-		<div className="flex flex-row items-center bg-[#75cbea] h-36 w-full p-5 space-x-6">
+		<div className="flex flex-row items-center bg-[#75cbea] h-32 w-full p-5 space-x-6">
 			<Image
 				src={"/assets/ausgovlogo.png"}
-				width={150}
-				height={150}
+				width={125}
+				height={125}
 				quality={95}
 				alt="Australian Government Logo"
 			/>
